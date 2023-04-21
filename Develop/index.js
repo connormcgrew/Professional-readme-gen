@@ -18,6 +18,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'link',
+        message: 'Please enter the live link to your project.',
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'Please enter installation instructions for your project. (Required)',
         validate: installationInput => !!installationInput || 'Please enter installation instructions for your project!'
@@ -30,9 +35,9 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'confirm',
+        name: 'confirmLicense',
         message: 'Would you like to include a license for your project? (Required)',
-        validate: confirmInput => !!confirmInput || 'Please enter yes or no!'
+        default: true,
     },
     {
         type: 'list',
@@ -61,8 +66,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'Please enter your contact information for quesitons and support!',
+        name: 'email',
+        message: 'Please enter your email information for quesitons and support!',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your GitHub username. (Required)',
+        validate: githubInput => !!githubInput || 'Please enter your GitHub username!'
     },
 ];
 

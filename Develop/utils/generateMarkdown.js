@@ -60,7 +60,32 @@ if (data.license === 'None') {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
+    ${renderLicenseBadge(data)}
+    
+  ## Description
+  ${data.description}
+  ## Live Link
+  [${data.title}](${data.link})
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage) ${renderLicenseLink(data)}
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  ## Installation
+  ${data.install}
+  ## Usage
+  ${data.usage}
+  ${renderLicenseSection(data)}
+  ## Contribution
+  ${data.contributing}
+  ## Tests
+  ${data.tests}
+  ## Questions
+  You can reach me with my [github profile](https://github.com/${data.github})
+  or reach me by [Email](mailto:${data.email})
 
 `;
 }
