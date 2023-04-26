@@ -23,7 +23,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installation',
+        name: 'install',
         message: 'Please enter installation instructions for your project. (Required)',
         validate: installationInput => !!installationInput || 'Please enter installation instructions for your project!'
     },

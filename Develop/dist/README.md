@@ -1,27 +1,34 @@
 
-  # w
-    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  # connor
     
-    ## Description
-  r
+    [![License](https://img.shields.io/github/license/connor/connor)](https://github.com/connor/connor/blob/master/LICENSE)
+    
+    
+  ## Description
+  connor
   ## Live Link
-  [w](d)
+  [connor](connor)
   ## Table of Contents
   - [Installation](#installation)
-  - [Usage](#usage) https://opensource.org/licenses/MIT
+  - [Usage](#usage)
+    - [License](#license)
+    
   - [Contribution](#contribution)
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  undefined
+  connpor
   ## Usage
-  a
-  This project is licensed under the terms of the MIT license.
+  connor
+  
+    ## License
+    MIT - [View license](https://github.com/connor/connor/blob/master/LICENSE)
+    
   ## Contribution
-  g
+  connor
   ## Tests
-  f
+  connor
   ## Questions
-  You can reach me with my [github profile](https://github.com/g)
-  or reach me by [Email](mailto:j)
+  You can reach me with my [github profile](https://github.com/connor)
+  or reach me by [Email](mailto:connor)
 
