@@ -26,8 +26,7 @@ function renderLicenseSection(data) {
       return ''
     }
     return `
-    ## License
-    ${data.license} - [View license](https://github.com/${data.github}/${data.title}/blob/master/LICENSE)
+    - [View license](https://github.com/${data.github}/${data.title}/blob/master/LICENSE)
     `;
   }
 
@@ -43,15 +42,17 @@ function generateMarkdown(data) {
   [${data.title}](${data.link})
   ## Table of Contents
   - [Installation](#installation)
-  - [Usage](#usage${data.license ? '-and-license' : ''})
+  - [Usage](#usage)
+  ${renderLicenseLink(data)}
   - [Contribution](#contribution)
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
   ${data.install}
-  ## Usage${data.license ? ' and License' : ''}
+  ## Usage
   ${data.usage}
-  ${data.license ? '- ' + renderLicenseLink(data) : ''}
+  ## License
+  ${data.license}${renderLicenseSection(data)}
   ## Contribution
   ${data.contributing}
   ## Tests
