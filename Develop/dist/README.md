@@ -5,9 +5,9 @@
     
     
   ## Description
-  connor
+  this is a readme generator
   ## Live Link
-  [hw9](connor)
+  [hw9](n/a)
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -17,18 +17,18 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  connor
+  npm i
   ## Usage
-  connor
+  node index.js
   ## License
   MIT
     - [View license](https://github.com/connormcgrew/hw9/blob/master/LICENSE)
     
   ## Contribution
-  connor
+  n/a
   ## Tests
-  connor
+  n/a
   ## Questions
   You can reach me with my [github profile](https://github.com/connormcgrew)
-  or reach me by [Email](mailto:connor)
+  or reach me by [Email](mailto:connormcgrew003@gmail.com)
 
